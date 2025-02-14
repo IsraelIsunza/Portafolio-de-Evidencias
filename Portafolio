@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de evidencias</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portafolio de evidencias</h1>
+    <h2>Programación web I</h2>
+    <h2>Ingeniería en Tecnologías de la Información</h2>
+    <h2>Primavera 2025</h2>
+
+    <h2>Universidad Politécnica de San Luis Potosí</h2>
+    <h2>Alumno:</h2>
+    <h2>Profesora: MC Imelda Deyanira Hernández Martínez</h2>
+
+    <section>
+        <h2>Sobre el alumno</h2>
+        <h3>Autobiografía</h3>
+        <article>
+            <p>Aquí va la autobiografía del alumno. Se pueden incluir detalles sobre su trayectoria académica, intereses y motivaciones.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Misión de la Carrera</h2>
+        <p>El Programa Educativo de la carrera de Ingeniería en Tecnologías de la Información está comprometido con la excelencia en la formación integral y humana...</p>
+    </section>
+
+    <section>
+        <h2>Visión de la Carrera</h2>
+        <p>La UPSLP y su programa educativo de Ingeniería en Tecnologías de la Información entregan a la sociedad alumnos formados con los más altos estándares profesionales...</p>
+    </section>
+
+    <section>
+        <h2>Objetivo de la materia</h2>
+        <p>El alumno desarrollará las habilidades necesarias en el uso del lenguaje de hipermarcado de texto, hojas de estilo en cascada y JavaScript...</p>
+    </section>
+
+    <section>
+        <h2>Consideraciones sobre las sesiones</h2>
+        <ol>
+            <li>Todas las sesiones son de Lunes a Viernes en los horarios marcados para la asignatura.</li>
+            <li>Asistencia obligatoria del 90% al curso.</li>
+            <li>El material se encontrará disponible en Blackboard o en la carpeta de Público o equipo de Teams.</li>
+            <li>Las tareas se reciben en la fecha estipulada y por la vía indicada.</li>
+            <li>No se aceptan tareas por correo electrónico.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Contenido de la materia</h2>
+        <ol type="a">
+            <li>Introducción a HTML</li>
+            <li>CSS y diseño responsivo</li>
+            <li>JavaScript y dinámicas web</li>
+            <li>Publicación de sitios web</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Prácticas - Portafolio</h2>
+        <ul>
+            <li>Práctica 1: Creación de una página HTML</li>
+            <li>Práctica 2: Estilización con CSS</li>
+            <li>Práctica 3: Interactividad con JavaScript</li>
+            <li>Práctica 4: Publicación en hosting</li>
+        </ul>
+    </section>
+</body>
+</html>
