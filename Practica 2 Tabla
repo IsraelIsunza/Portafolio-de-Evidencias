@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>TABLAS HTML</title>
+<h1>TABLAS EN HTML</h1>
+<table border=".5">
+    <thead>
+        <tr>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+            <th>Titulo 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+        <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+        <tr>
+            <td>Celda 7s</td>
+            <td>Celda 8</td>
+            <td>Celda 9</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Totales 1</td>
+            <td>Totales 2</td>
+            <td>Totales 3</td>
+        </tr>
+    </tfoot>
+</table>
