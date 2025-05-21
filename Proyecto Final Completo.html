@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlético de San Luis - Sporelli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        ATLÉTICO DE SAN LUIS
+    </header>
+
+    <div class="main-image">
+        <img src="https://acdn-us.mitiendanube.com/stores/005/439/403/categories/mesa-de-trabajo-2-568dc36955ae20736e17418401386228-1920-1920.png" alt="Atlético de San Luis">
+    </div>
+
+    <div class="video-section">
+        <h2>Video Promocional</h2>
+        <iframe src="https://www.youtube.com/embed/sCHkha33BdI" allowfullscreen></iframe>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <h3>Filtrar por Color</h3>
+            <label><input type="checkbox" value="amarillo" class="color-filter"> Amarillo</label>
+            <label><input type="checkbox" value="azul" class="color-filter"> Azul</label>
+            <label><input type="checkbox" value="blanco" class="color-filter"> Blanco</label>
+            <label><input type="checkbox" value="negro" class="color-filter"> Negro</label>
+            <label><input type="checkbox" value="rojo" class="color-filter"> Rojo</label>
+        </div>
+
+        <div class="products" id="product-list">
+            <div class="product" data-color="amarillo">
+                <img src="..." alt="Jersey Alternativo">
+                <h3>Jersey Alternativo Oficial</h3>
+                <p>$1,389.00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <h2>Galería</h2>
+        <div class="gallery-images">
+            <img src="estadio.jpg" alt="Estadio">
+            <img src="equipo.jpg" alt="Equipo">
+            <img src="hinchada.jpg" alt="Afición">
+            <img src="campeones.jpg" alt="Campeones">
+        </div>
+    </div>
+
+    <div class="map-section">
+        <h2>Ubicación del Estadio</h2>
+        <iframe src="..."></iframe>
+    </div>
+
+    <div class="help-section">
+        <h2>Ayuda y Soporte</h2>  
+        <button class="collapsible">Grupos de Ayuda</button>
+        <div class="content">
+        </div>
+
+        <button class="collapsible">Síguenos en Redes Sociales</button>
+        <div class="content">
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Formulario de Compra</h2>
+        <form id="salesForm">
+            <label>Nombre completo:</label><br>
+            <input type="text" id="name" required><br><br>
+            <label>Correo electrónico:</label><br>
+            <input type="email" id="email" required><br><br>
+            <label>Producto:</label><br>
+            <select id="product" required onchange="updatePrice()">
+                <option value="">--Selecciona--</option>
+                <option value="Jersey Alternativo">Jersey Alternativo - $1,389.00</option>
+                <option value="Jersey Rojiblanco">Jersey Rojiblanco - $1,389.00</option>
+                <option value="Jersey Día de Muertos">Jersey Día de Muertos - $589.00</option>
+                <option value="Jersey Auriazul">Jersey Auriazul - $1,389.00</option>
+            </select><br><br>
+            <label>Cantidad:</label><br>
+            <input type="number" id="quantity" min="1" value="1" onchange="calculateTotal()" required><br><br>
+            <p class="total"><strong>Total:</strong> <span id="totalAmount">$0.00</span></p>
+            <button type="button" onclick="submitForm()">Finalizar Compra</button>
+            <button type="button" onclick="generatePDF()">Generar Comprobante (PDF)</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+
+    <iframe 
+        src="https://landbot.online/v3/H-2929178-BXG8P1I4RO81B4N9/index.html" 
+        title="Chatbot Atlético de San Luis"></iframe>
+</body>
+</html>
+
