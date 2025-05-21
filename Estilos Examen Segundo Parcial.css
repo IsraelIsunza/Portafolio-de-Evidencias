@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, black, rgb(124, 124, 124));
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  #mostrar {
+    display: none;
+  }
+  
+  label[for="mostrar"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a7861b;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .imagen img {
+    width: 250px;
+    height: 200px;
+    border: 3px solid rgb(163, 114, 50);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  label[for="mostrar"]:hover {
+    background-color: rgb(185, 28, 28);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  label[for="mostrar"]:hover + .galeria,
+  label[for="mostrar"]:hover ~ .galeria {
+    display: none;
+  }
+  
